@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js",
-    "dev": "env cmd ./config/dev.env nodemon src/index.js"
+    "dev": "env-cmd ./config/dev.env nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
     "nodemon": "^2.0.3"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1"
   }
 }
