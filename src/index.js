@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 app.listen(port, () => {
-  console.log(`server on ${port}`);
+  console.log(`Server on ${port}`);
 });
 
 app.get("/forecast", (req, res) => {
